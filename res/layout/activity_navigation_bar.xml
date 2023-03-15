@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationBar_Activity"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/night_mode"
+                android:gravity="center"
+                android:text="Profile" />
+
+
+
+            <ImageButton
+                android:id="@+id/gupchup"
+                android:layout_width="wrap_content"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/food3" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Chaat Masala"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/chhat"
+                android:layout_width="wrap_content"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/food1" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/curd_bada"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/dahibada"
+                android:layout_width="wrap_content"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/food2" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/roti12"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/roti"
+                android:layout_width="380dp"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/roti" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/dosa"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/dosa"
+                android:layout_width="379dp"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/dosa" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/aalu"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/parotha"
+                android:layout_width="380dp"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/parotha" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/gupcup_panipuri"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/panipuri"
+                android:layout_width="wrap_content"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/panipuri" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/chicken_lolipop"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/chicken"
+                android:layout_width="379dp"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/chicken" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/pizza"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/pizza"
+                android:layout_width="379dp"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/pizza" />
+
+            <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="@string/fish_fry"
+            android:textColor="#453E3E"
+            android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/fish"
+                android:layout_width="383dp"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/fish" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/butter_naan"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/naan"
+                android:layout_width="379dp"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/naan" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/samoosa"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/samosa"
+                android:layout_width="380dp"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/samosa" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/jalebi"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/jalebi"
+                android:layout_width="379dp"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/jalebi" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

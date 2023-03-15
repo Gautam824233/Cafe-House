@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="3dp"
+    android:orientation="vertical"
+    tools:context=".Aalu_paratha_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="393dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/aalu"
+                android:textColor="#AE1D1D"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="288dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/parotha2" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/aalu"
+                android:textColor="#131313"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:fontFamily="sans-serif-medium"
+                android:text=" Ratings "
+                android:textColor="#0A4BEF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/gag"
+                android:textColor="#33F807"
+                android:textSize="39sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginStart="15dp"
+                android:background="#BBE3B1"
+                android:fontFamily="sans-serif"
+                android:text="@string/special_price"
+                android:textColor="#0C0C0C"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:background="#BBE3B1"
+                android:fontFamily="sans-serif"
+                android:text="Rs. 150  [ 5 Pieces ]"
+                android:textColor="#DF1B14"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="3dp"
+                android:text="Aloo paratha is the most popular amongst all parathas! A paratha is an unleavened flatbread stuffed with a variety of fillingfrom vegetarian to non-vegetarian"
+                android:textColor="#252423"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:background="@color/teal_200"
+                android:backgroundTint="#9A774A"
+                android:text="Add to cart"
+                android:textColor="#EDE9E9"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="#E81A4A"
+                android:text="Buy Now"
+                android:textColor="#F6F3F3"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:background="#DD0C0C" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="3dp"
+                android:text="Parathas are popular unleavened ( no yeast, no baking soda, or baking power ) flatbread from Indian cusine prepared using flour ( Aata ), Salt, Oil (Ghee or Butter),and water.
+ Aloo Paratha is a delicious Indian stuffed flatbread that is crispy on the outside,with soft and flavorful melt-in-mouth mashed potato filling on the inside."
+                android:textColor="#252423"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Images"
+                android:textColor="#AD09E8"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                app:srcCompat="@drawable/parotha" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                app:srcCompat="@drawable/parotha1" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Review"
+                android:textColor="#F16B12"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Do you prefer to eat health food ?"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Potato paratha is a totaly health food and it is mainly use in the breakfast."
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/goblin_one"
+                android:gravity="start"
+                android:text="Other Items"
+                android:textColor="#0A72F1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Chaat Masala"
+            android:textColor="#453E3E"
+            android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/chhat"
+                android:layout_width="wrap_content"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/food1" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/curd_bada"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/dahibada"
+                android:layout_width="wrap_content"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/food2" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/dosa"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/dosa1"
+                android:layout_width="379dp"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/dosa" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/samoosa"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/samosa"
+                android:layout_width="380dp"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/samosa" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/jalebi"
+                android:textColor="#453E3E"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/jalebi"
+                android:layout_width="379dp"
+                android:layout_height="186dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/jalebi" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
